@@ -1,0 +1,17 @@
+<template>
+    <div class="board">
+        <template if:true={people}>
+            <template for:each={people} for:item="person">
+                <div class="card" key={person.email}>
+                    <img class="image" src={person.image} />
+                    <div class="info">
+                        <div class="name">{person.firstName} {person.lastName}</div>
+                        <div class="title">{person.shortTitle}, {person.discipline}</div>
+                        <div class="location">{person.location}</div>
+                    </div>
+                </div>
+            </template>
+        </template>
+    </div>
+    {peopleByTeam}
+</template>

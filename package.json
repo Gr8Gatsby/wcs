@@ -5,9 +5,18 @@
     "author": "Kevin",
     "bugs": "https://github.com/Kevin/my-wcs/issues",
     "dependencies": {
+        "@github/time-elements": "^3.1.1",
+        "@lrnwebcomponents/iron-data-table": "^2.0.10",
+        "@patternfly/pfe-card": "^1.0.0-prerelease.56",
+        "@ui5/webcomponents": "^1.0.0-rc.8",
         "compression": "^1.7.4",
+        "emoji-slider": "^0.2.0",
         "express": "^4.17.1",
-        "helmet": "^4.1.1"
+        "helmet": "^4.1.1",
+        "two-up-element": "^1.0.1",
+        "wired-button": "^2.1.0",
+        "wired-card": "^2.1.0",
+        "wired-progress": "^2.1.0"
     },
     "devDependencies": {
         "eslint": "^7.9.0",
